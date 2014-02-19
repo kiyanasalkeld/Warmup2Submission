@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/background_red"
+        >
+  <TextView
+          android:id="@+id/welcome"
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"
+          android:text="@string/welcome"
+          android:typeface="sans"
+          android:textColor="@color/white"
+          android:textStyle="italic"
+          android:textSize="17dp"
+          android:layout_marginLeft="100dp"
+          android:layout_marginTop="50dp"
+          />
+
+    <TextView
+            android:id="@+id/usernamePlaceHolder"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text=""
+            android:typeface="sans"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:textSize="17dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@id/welcome"
+            android:layout_marginLeft="8dp"
+            />
+
+    <TextView
+            android:id="@+id/youHaveLoggedIn"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/youHave"
+            android:typeface="sans"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:textSize="17dp"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/welcome"
+            />
+
+    <TextView
+            android:id="@+id/numberOfLoginsPlaceHolder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/youHaveLoggedIn"
+            android:layout_below="@id/welcome"
+            android:text=""
+            android:typeface="sans"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:textSize="17dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            />
+
+    <TextView
+            android:id="@+id/times"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/times"
+            android:typeface="sans"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:textSize="17dp"
+            android:layout_below="@id/usernamePlaceHolder"
+            android:layout_toRightOf="@id/numberOfLoginsPlaceHolder"
+            />
+
+    <Button
+            android:id="@+id/logout_button"
+            android:layout_height="50dp"
+            android:layout_width="100dp"
+            android:background="@drawable/image_button_background"
+            android:text="@string/logoutButton"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:layout_below="@id/numberOfLoginsPlaceHolder"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:onClick="logoutButtonClicked"
+
+            />
+
+
+
+
+</RelativeLayout>
+

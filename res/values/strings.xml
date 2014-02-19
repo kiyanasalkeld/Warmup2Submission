@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="please_enter_cred">Please enter your credentials below</string>
+    <string name="welcome">Welcome</string>
+    <string name="usernamePlaceHolder">USER</string>
+    <string name="youHave">You have logged in</string>
+    <string name="loginCountPlaceHolder">NUM</string>
+    <string name="times">times.</string>
+    <string name="loginButton">LOGIN</string>
+    <string name="addUserButton">ADD USER</string>
+    <string name="logoutButton">LOGOUT</string>
+    <string name="cs169">CS 169</string>
+    <string name="warmup">warmup exercise 1</string>
+    <string name="password">password</string>
+    <string name="username">username</string>
+
+
+</resources>
